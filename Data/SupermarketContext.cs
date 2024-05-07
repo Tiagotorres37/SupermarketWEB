@@ -3,10 +3,10 @@ using SupermarketWEB.Models;
 using System.Collections.Generic;
 namespace SupermarketWEB.Data
 {
-    public class SumpermarketContext : DbContext
+    public class SupermarketContext : DbContext
     {
 
-        public SumpermarketContext(DbContextOptions options) : base(options)
+        public SupermarketContext(DbContextOptions options) : base(options)
         {
         }
 
