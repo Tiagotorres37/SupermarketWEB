@@ -14,6 +14,7 @@ namespace SupermarketWEB.Pages.Categories
         {
             _context = context;
         }
+
         public IActionResult OnGet()
         {
             return Page();
@@ -28,6 +29,7 @@ namespace SupermarketWEB.Pages.Categories
             {
                 return Page();
             }
+
             _context.Categories.Add(Category);
             await _context.SaveChangesAsync();
 
