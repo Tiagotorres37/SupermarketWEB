@@ -11,8 +11,8 @@ namespace SupermarketWEB.Models
         [Column(TypeName = "decimal(6,2)")]
         public decimal Price { get; set; }
         public int Stock { get; set; }
-        public int CategoryId { get; set; } 
-        public ICollection<Category>? Categories { get; set; } 
+        public int CategoryId { get; set; }
+        public ICollection<Category>? Categories { get; set; } = default!;
 
     }
 }
