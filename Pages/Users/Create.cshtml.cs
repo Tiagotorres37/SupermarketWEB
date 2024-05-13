@@ -3,13 +3,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using SupermarketWEB.Data;
 using SupermarketWEB.Models;
 
-namespace SupermarketWEB.Pages.Account
+namespace SupermarketWEB.Pages.Users
 {
-	public class CreateUserModel : PageModel
+    public class CreateModel : PageModel
 	{
 		private readonly SupermarketContext _context;
 
-		public CreateUserModel(SupermarketContext context)
+		public CreateModel(SupermarketContext context)
 		{
 			_context = context;
 		}
