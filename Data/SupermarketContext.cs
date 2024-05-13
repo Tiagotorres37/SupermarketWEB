@@ -15,6 +15,7 @@ namespace SupermarketWEB.Data
 		public DbSet<Provider> Provider { get; set; }
 
         public DbSet<payMode> payMode { get; set; }
+        public DbSet<User> Users { get; set; }  
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseSqlServer(
